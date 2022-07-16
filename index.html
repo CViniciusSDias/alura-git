@@ -9,7 +9,7 @@
         <li>Vagrant</li>
         <li>Docker</li>
         <li>Ansible</li>
-        <li>Integração Contínua</li>
+        <li>Integração Contínua: Maturidade e Produtividade no Desenvolvimento de Software</li>
     </ul>
 </body>
 </html>
