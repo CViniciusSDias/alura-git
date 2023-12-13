@@ -2,59 +2,128 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lista de Cursos</title>
+    <title>Lista de Cursos 2023</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        strong {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h2>Cursos de DevOps:</h2>
 
-    <dl>
-        <dt>Vagrant</dt>
-        <dd>Gerenciando máquinas virtuais</dd>
+    <header>
+        <h1>Lista de Cursos</h1>
+    </header>
 
-        <dt>Docker</dt>
-        <dd>Criando containers sem dor de cabeça</dd>
+    <main>
+        <section role="region" aria-labelledby="devops-heading">
+            <h2 id="devops-heading">1. Cursos de DevOps:</h2>
 
-        <dt>Ansible</dt>
-        <dd>Sua infraestrutura como código</dd>
+            <ul>
+                <li>
+                    <strong>Vagrant</strong>
+                    <p>Gerenciando máquinas virtuais</p>
+                </li>
+                <li>
+                    <strong>Docker</strong>
+                    <p>Criando containers sem dor de cabeça</p>
+                </li>
+                <li>
+                    <strong>Ansible</strong>
+                    <p>Sua infraestrutura como código</p>
+                </li>
+                <li>
+                    <strong>Integração Contínua</strong>
+                    <p>Maturidade e Produtividade no Desenvolvimento de Software</p>
+                </li>
+                <li>
+                    <strong>Kubernetes</strong>
+                    <p>Introdução a orquestração de containers</p>
+                </li>
+            </ul>
+        </section>
 
-        <dt>Integração Contínua</dt>
-        <dd>Maturidade e Produtividade no Desenvolvimento de Software</dd>
-        
-        <dt>Kubernetes</dt>
-        <dd>Introdução a orquestração de containers</dd>
-    </dl>
+        <section role="region" aria-labelledby="linux-heading">
+            <h2 id="linux-heading">2. Cursos de Linux:</h2>
 
-    <h2>Cursos de Linux:</h2>
-    <dl>
-        <dt>Linux I</dt>
-        <dd>Conhecendo e utilizando o terminal</dd>
+            <ul>
+                <li>
+                    <strong>Linux I</strong>
+                    <p>Conhecendo e utilizando o terminal</p>
+                </li>
+                <li>
+                    <strong>Linux II</strong>
+                    <p>Programas, processos e pacotes</p>
+                </li>
+                <li>
+                    <strong>Shell Script I</strong>
+                    <p>Começando seus scripts de automação de tarefas</p>
+                </li>
+                <li>
+                    <strong>Shell Script II</strong>
+                    <p>Fazendo monitoramento, agendando tarefas e backup</p>
+                </li>
+            </ul>
+        </section>
 
-        <dt>Linux II</dt>
-        <dd>Programas, processos e pacotes</dd>
+        <section role="region" aria-labelledby="cloud-heading">
+            <h2 id="cloud-heading">3. Cursos de Cloud:</h2>
 
-        <dt>Shell Script I</dt>
-        <dd>Começando seus scripts de automação de tarefas</dd>
+            <ul>
+                <li>
+                    <strong>Amazon EC2</strong>
+                    <p>Faça um deploy da sua webapp com alta disponibilidade e escalabilidade.</p>
+                </li>
+                <li>
+                    <strong>Amazon S3</strong>
+                    <p>Manipule e armazene objetos na nuvem</p>
+                </li>
+                <li>
+                    <strong>Amazon Elastic Beanstalk Parte 1</strong>
+                    <p>Container Docker</p>
+                </li>
+                <li>
+                    <strong>Amazon ECS</strong>
+                    <p>Gerencie Docker na nuvem da AWS</p>
+                </li>
+                <li>
+                    <strong>Google Cloud</strong>
+                    <p>Deploy de uma aplicação em Spring MVC</p>
+                </li>
+            </ul>
+        </section>
+    </main>
 
-        <dt>Shell Script II</dt>
-        <dd>Fazendo monitoramento, agendando tarefas e backup</dd>
-    </dl>
+    <footer>
+        <!-- Rodapé, se necessário -->
+    </footer>
 
-    <h2>Cursos de Cloud:</h2>
-    <dl>
-        <dt>Amazon EC2</dt>
-        <dd>Faça um deploy da sua webapp com alta disponibilidade e escalabilidade.</dd>
-
-        <dt>Amazon S3</dt>
-        <dd>Manipule e armazene objetos na nuvem</dd>
-
-        <dt>Amazon Elastic Beanstalk Parte 1</dt>
-        <dd>Container Docker</dd>
-
-        <dt>Amazon ECS</dt>
-        <dd>Gerencie Docker na nuvem da AWS</dd>
-
-        <dt>Google Cloud</dt>
-        <dd>Deploy de uma aplicação em Spring MVC</dd>
-    </dl>
 </body>
 </html>
