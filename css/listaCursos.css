@@ -26,14 +26,15 @@
 
 .titulo-curso {
     background: azure;
-    text-align: center;
     font-size: 48px;
     font-weight: 700;
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     box-shadow: 0px 0px 5px grey;
     padding: 18px;
+    width: 40%;
 }
 
 .lista-curso {
@@ -41,6 +42,7 @@
     text-align: center;
     box-shadow: 0px 0px 5px grey;
     height: 100%;
+    width: 40%;
     display: flex;
     padding: 18px;
     justify-content: center;
