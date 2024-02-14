@@ -5,7 +5,7 @@
 }
 
 :root {
-    --altura-lista: 75vh;
+    --altura-lista: 100vh;
 }
 
 .container-main {
@@ -15,10 +15,12 @@
     align-items: center;
 
     & .lista {
-        margin: 12.5vh 0;
+        padding: 12.5vh 0;
         display: flex;
         align-items: center;
+        justify-content: center;
         height: var(--altura-lista);
+        width: 100%;
     }
 }
 
