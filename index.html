@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,59 +10,69 @@
 
     <title>Lista de Cursos</title>
 </head>
+
 <body>
+    <div class="container-main">
 
-    <h2 class="titulo-curso">Cursos de DevOps:</h2>
-    <dl class="lista-curso">
-        <dt>Vagrant</dt>
-        <dd class="curso__texto">Gerenciando máquinas virtuais</dd>
-        
-        <dt>Docker</dt>
-        <dd class="curso__texto">Criando containers sem dor de cabeça</dd>
+        <div class="lista">
+            <h2 class="titulo-curso">Cursos de DevOps:</h2>
+            <dl class="lista-curso">
+                <dt class="curso__titulo">Vagrant</dt>
+                <dd class="curso__texto">Gerenciando máquinas virtuais</dd>
 
-        <dt>Ansible</dt>
-        <dd class="curso__texto">Sua infraestrutura como código</dd>
+                <dt class="curso__titulo">Docker</dt>
+                <dd class="curso__texto">Criando containers sem dor de cabeça</dd>
 
-        <dt>Integração Contínua</dt>
-        <dd class="curso__texto">Maturidade e Produtividade no Desenvolvimento de Software</dd>
-        
-        <dt>Kubernetes</dt>
-        <dd class="curso__texto">Introdução a orquestração de containers</dd>
-    </dl>
+                <dt class="curso__titulo">Ansible</dt>
+                <dd class="curso__texto">Sua infraestrutura como código</dd>
 
-    <h2 class="titulo-curso">Cursos de Linux:</h2>
-    <dl class="lista-curso">
-        <dt>Linux I</dt>
-        <dd class="curso__texto">Conhecendo e utilizando o terminal</dd>
+                <dt class="curso__titulo">Integração Contínua</dt>
+                <dd class="curso__texto">Maturidade e Produtividade no Desenvolvimento de Software</dd>
 
-        <dt>Linux II</dt>
-        <dd class="curso__texto">Programas, processos e pacotes</dd>
+                <dt class="curso__titulo">Kubernetes</dt>
+                <dd class="curso__texto">Introdução a orquestração de containers</dd>
+            </dl>
+        </div>
 
-        <dt>Shell Script I</dt>
-        <dd class="curso__texto">Começando seus scripts de automação de tarefas</dd>
+        <div class="lista">
+            <h2 class="titulo-curso">Cursos de Linux:</h2>
+            <dl class="lista-curso">
+                <dt class="curso__titulo">Linux I</dt>
+                <dd class="curso__texto">Conhecendo e utilizando o terminal</dd>
 
-        <dt>Shell Script II</dt>
-        <dd class="curso__texto">Fazendo monitoramento, agendando tarefas e backup</dd>
-    </dl>
+                <dt class="curso__titulo">Linux II</dt>
+                <dd class="curso__texto">Programas, processos e pacotes</dd>
 
-    <h2 class="titulo-curso">Cursos de Cloud:</h2>
-    <dl class="lista-curso">
-        <dt>Amazon EC2</dt>
-        <dd class="curso__texto">Faça um deploy da sua webapp com alta disponibilidade e escalabilidade.</dd>
+                <dt class="curso__titulo">Shell Script I</dt>
+                <dd class="curso__texto">Começando seus scripts de automação de tarefas</dd>
 
-        <dt>Amazon S3</dt>
-        <dd class="curso__texto">Manipule e armazene objetos na nuvem</dd>
+                <dt class="curso__titulo">Shell Script II</dt>
+                <dd class="curso__texto">Fazendo monitoramento, agendando tarefas e backup</dd>
+            </dl>
+        </div>
 
-        <dt>Amazon Elastic Beanstalk Parte 1</dt>
-        <dd class="curso__texto">Container Docker</dd>
+        <div class="lista">
+            <h2 class="titulo-curso">Cursos de Cloud:</h2>
+            <dl class="lista-curso">
+                <dt class="curso__titulo">Amazon EC2</dt>
+                <dd class="curso__texto">Faça um deploy da sua webapp com alta disponibilidade e escalabilidade.</dd>
 
-        <dt>Amazon ECS</dt>
-        <dd class="curso__texto">Gerencie Docker na nuvem da AWS</dd>
+                <dt class="curso__titulo">Amazon S3</dt>
+                <dd class="curso__texto">Manipule e armazene objetos na nuvem</dd>
 
-        <dt>Google Cloud</dt>
-        <dd class="curso__texto">Deploy de uma aplicação em Spring MVC</dd>
-    </dl>
+                <dt class="curso__titulo">Amazon Elastic Beanstalk Parte 1</dt>
+                <dd class="curso__texto">Container Docker</dd>
+
+                <dt class="curso__titulo">Amazon ECS</dt>
+                <dd class="curso__texto">Gerencie Docker na nuvem da AWS</dd>
+
+                <dt class="curso__titulo">Google Cloud</dt>
+                <dd class="curso__texto">Deploy de uma aplicação em Spring MVC</dd>
+            </dl>
+        </div>
+    </div>
 
     <script src="./js/app.js"></script>
 </body>
+
 </html>

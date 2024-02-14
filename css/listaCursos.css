@@ -4,21 +4,51 @@
     box-sizing: border-box;
 }
 
+:root {
+    --altura-lista: 75vh;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    & .lista {
+        margin: 12.5vh 0;
+        display: flex;
+        align-items: center;
+        height: var(--altura-lista);
+    }
+}
+
 .titulo-curso {
     background: azure;
     text-align: center;
     font-size: 48px;
     font-weight: 700;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 5px grey;
+    padding: 18px;
 }
 
 .lista-curso {
     background-color: azure;
     text-align: center;
-    margin-bottom: 30px;
     box-shadow: 0px 0px 5px grey;
+    height: 100%;
+    display: flex;
+    padding: 18px;
+    justify-content: center;
+    flex-direction: column;
     
     & .curso__texto {
         margin-bottom: 15px;
         
+    }
+    & .curso__titulo {
+        font-size: 24px;
     }
 }
