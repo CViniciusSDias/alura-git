@@ -33,9 +33,12 @@
     align-items: center;
     justify-content: center;
     box-shadow: -10px 0px 5px grey;
-    background: linear-gradient(to left, rgb(133, 133, 133), azure 3%);
+    background: 
+            linear-gradient(to right, grey, transparent 2%),
+            linear-gradient(to left, grey, transparent 5%)
+            azure;
     padding: 18px;
-    width: 40%;
+    width: 500px;
 }
 
 .lista-curso {
@@ -43,12 +46,15 @@
     text-align: center;
     box-shadow: -5px 0px 5px grey;
     height: 100%;
-    width: 40%;
+    width: 500px;
     display: flex;
     padding: 18px;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(to right, rgb(133, 133, 133), azure 5%);
+    background: 
+            linear-gradient(to left, grey, transparent 2%),
+            linear-gradient(to right, grey, transparent 5%)
+            azure;
     
     & .curso__texto {
         margin-bottom: 15px;
